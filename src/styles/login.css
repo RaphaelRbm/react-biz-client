@@ -1,0 +1,32 @@
+p {
+  font-size: 1rem;
+}
+
+.login-btn {
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.7em;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+.bg-light-orange {
+  background-color: rgba(244, 80, 30, 0.7);
+}
+
+.bg-orange {
+  background-color: rgb(244, 80, 30);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .imgLogin {
+    width: 350px;
+    height: 425px;
+  }
+
+}
